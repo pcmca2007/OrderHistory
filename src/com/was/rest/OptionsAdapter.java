@@ -7,11 +7,11 @@ public class OptionsAdapter extends XmlAdapter<AdaptedOptions, Options> {
 	@Override
 	public Options unmarshal(AdaptedOptions v) throws Exception {
 		
-		if("TSO".equals(v.name)){
+		if("TSO".equals(v.store_id)){
 			
 			TsoOptions options = new TsoOptions();
-			System.out.println("XXXXXXXXXXXXXXXX="+v.getName());
-			options.setName(v.getName());
+			System.out.println("XXXXXXXXXXXXXXXX="+v.getStore_id());
+			options.setStore_id(v.getStore_id());
 			options.setStore_label(v.map.get("store_label"));
 			options.setOrder_id(Integer.valueOf(v.map.get("order_id")));
 			options.setStatus(v.map.get("status"));
@@ -29,8 +29,8 @@ public class OptionsAdapter extends XmlAdapter<AdaptedOptions, Options> {
 		}else{
 			
 			SsoOptions options = new SsoOptions();
-			options.setName(v.getName());
-			System.out.println("YYYYYYYYYYYYYYYYYYY="+v.getName());
+			options.setStore_id(v.getStore_id());
+			System.out.println("YYYYYYYYYYYYYYYYYYY="+v.getStore_id());
 			options.setStore_label(v.map.get("store_label"));
 			options.setOrder_id(Integer.valueOf(v.map.get("order_id")));
 			options.setStatus(v.map.get("status"));
@@ -53,7 +53,7 @@ public class OptionsAdapter extends XmlAdapter<AdaptedOptions, Options> {
 	public AdaptedOptions marshal(Options v) throws Exception {
 		
 		AdaptedOptions adaptedOptions = new AdaptedOptions();
-		adaptedOptions.setName(v.getName());
+		adaptedOptions.setStore_id(v.getStore_id());
 		
 		if(TsoOptions.class.equals(v.getClass())){
 			

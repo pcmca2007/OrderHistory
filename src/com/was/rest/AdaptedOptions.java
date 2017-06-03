@@ -16,7 +16,7 @@ import javax.xml.bind.annotation.XmlValue;
 
 public class AdaptedOptions extends Options {
 	
-	@XmlAttribute String name;
+	@XmlAttribute String store_id;
 	
 	@XmlElement List<Attribute> attribute  = new ArrayList<Attribute>();
 	Map<String, String> map = new HashMap<String, String>();
