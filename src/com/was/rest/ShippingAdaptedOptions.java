@@ -14,9 +14,10 @@ import javax.xml.bind.annotation.XmlValue;
 
 
 
-public class AdaptedOptions extends Options {
+public class ShippingAdaptedOptions extends ShippingOptions {
 	
-	@XmlAttribute String store_id;
+	
+	@XmlAttribute String name;
 	
 	
 	@XmlElement List<Attribute> attribute  = new ArrayList<Attribute>();
@@ -42,5 +43,6 @@ public class AdaptedOptions extends Options {
         @XmlAttribute String name;
         @XmlValue String value;
     }
+
 
 }

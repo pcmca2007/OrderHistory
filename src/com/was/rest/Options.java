@@ -6,7 +6,7 @@ public abstract class Options {
 	
 	
 	private String store_id;
-
+	
 	@XmlAttribute
     public String getStore_id() {
 		return store_id;

@@ -2,16 +2,7 @@ package com.was.rest;
 
 public class SsoOptions extends Options {
 	
-	private String store_id;
 	
-	public String getStore_id() {
-		return store_id;
-	}
-
-	public void setStore_id(String store_id) {
-		this.store_id = store_id;
-	}
-
 	private String store_label;
 	
 	private int order_id;

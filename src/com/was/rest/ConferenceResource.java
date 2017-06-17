@@ -67,7 +67,7 @@ public class ConferenceResource {
     	List<Options> orderList = new ArrayList<Options>();
     
     	
-    	or.setStore_id("SSO");
+    	or.setStore_id("TSO");
     	or.setStore_label("SSO Store");
     	or.setOrder_id(7039012);
     	or.setStatus("Shipped");
@@ -82,7 +82,7 @@ public class ConferenceResource {
     	
     	orderList.add(or);
     	
-    	or1.setStore_id("TSO");
+    	or1.setStore_id("SSO");
     	or1.setStore_label("Teacher Store");
     	or1.setOrder_id(7039009);
     	or1.setStatus("Cancelled");
@@ -97,149 +97,149 @@ public class ConferenceResource {
 
     	orderList.add(or1);
     	
-    /*	Order or2= or;
+    	TsoOptions or2= or;
     	orderList.add(or2);
     	
-    	Order or3=or2;
+    	TsoOptions or3=or2;
     	orderList.add(or3);
     	
-    	Order or4=or1;
+    	SsoOptions or4=or1;
     	orderList.add(or4);
     	
-    	Order or5=or2;
+    	TsoOptions or5=or2;
     	orderList.add(or5);
     	
-    	Order or6=or1;
+    	SsoOptions or6=or1;
     	orderList.add(or6);
     	
-    	Order or7=or1;
+    	SsoOptions or7=or1;
     	orderList.add(or7);
     	
-    	Order or8=or1;
+    	SsoOptions or8=or1;
     	orderList.add(or8);
     	
-    	Order or9=or1;
+    	SsoOptions or9=or1;
     	orderList.add(or9);
     	
-    	Order or10=or1;
+    	SsoOptions or10=or1;
     	orderList.add(or10);
     	
-    	Order or11=or1;
+    	SsoOptions or11=or1;
     	orderList.add(or11);
     	
-    	Order or12=or1;
+    	SsoOptions or12=or1;
     	orderList.add(or12);
     	
-    	Order or13=or1;
+    	SsoOptions or13=or1;
     	orderList.add(or13);
     	
-    	Order or14=or1;
+    	SsoOptions or14=or1;
     	orderList.add(or14);
     	
-    	Order or15=or1;
+    	SsoOptions or15=or1;
     	orderList.add(or15);
     	
-    	Order or16=or1;
+    	SsoOptions or16=or1;
     	orderList.add(or16);
     	
-    	Order or17=or1;
+    	SsoOptions or17=or1;
     	orderList.add(or17);
     	
-    	Order or18=or1;
+    	SsoOptions or18=or1;
     	orderList.add(or18);
     	
-    	Order or19=or1;
+    	SsoOptions or19=or1;
     	orderList.add(or19);
     	
-    	Order or20=or1;
+    	SsoOptions or20=or1;
     	orderList.add(or20);
     	
-    	Order or21=or1;
+    	SsoOptions or21=or1;
     	orderList.add(or21);
     	
-    	Order or22=or1;
+    	SsoOptions or22=or1;
     	orderList.add(or22);
     	
-    	Order or23=or1;
+    	SsoOptions or23=or1;
     	orderList.add(or23);
     	
-    	Order or24=or1;
+    	SsoOptions or24=or1;
     	orderList.add(or24);
     	
-    	Order or25=or1;
+    	SsoOptions or25=or1;
     	orderList.add(or25);
     	
-    	Order or26=or1;
+    	SsoOptions or26=or1;
     	orderList.add(or26);
     	
-    	Order or27=or1;
+    	SsoOptions or27=or1;
     	orderList.add(or27);
     	
-    	Order or28=or1;
+    	SsoOptions or28=or1;
     	orderList.add(or28);
     	
-    	Order or29=or1;
+    	SsoOptions or29=or1;
     	orderList.add(or29);
     	
-    	Order or30=or1;
+    	SsoOptions or30=or1;
     	orderList.add(or30);
     	
-    	Order or31=or1;
+    	SsoOptions or31=or1;
     	orderList.add(or31);
     	
-    	Order or32=or1;
+    	SsoOptions or32=or1;
     	orderList.add(or32);
     	
-    	Order or34=or1;
+    	SsoOptions or34=or1;
     	orderList.add(or34);
     	
-    	Order or35=or1;
+    	SsoOptions or35=or1;
     	orderList.add(or35);
     	
-    	Order or36=or1;
+    	SsoOptions or36=or1;
     	orderList.add(or36);
     	
-    	Order or37=or1;
+    	SsoOptions or37=or1;
     	orderList.add(or37);
     	
-    	Order or38=or1;
+    	SsoOptions or38=or1;
     	orderList.add(or38);
     	
-    	Order or39=or1;
+    	SsoOptions or39=or1;
     	orderList.add(or39);
     	
-    	Order or40=or1;
+    	SsoOptions or40=or1;
     	orderList.add(or40);
     	
-    	Order or41=or1;
+    	SsoOptions or41=or1;
     	orderList.add(or41);
     	
-    	Order or42=or1;
+    	SsoOptions or42=or1;
     	orderList.add(or42);
     	
-    	Order or43=or1;
+    	SsoOptions or43=or1;
     	orderList.add(or43);
     	
-    	Order or44=or1;
+    	SsoOptions or44=or1;
     	orderList.add(or44);
     	
-    	Order or45=or1;
+    	SsoOptions or45=or1;
     	orderList.add(or45);
     	
-    	Order or46=or1;
+    	SsoOptions or46=or1;
     	orderList.add(or46);
     	
-    	Order or47=or1;
+    	SsoOptions or47=or1;
     	orderList.add(or47);
     	
-    	Order or48=or1;
+    	SsoOptions or48=or1;
     	orderList.add(or48);
     	
-    	Order or49=or1;
+    	SsoOptions or49=or1;
     	orderList.add(or49);
     	
-    	Order or50=or1;
-    	orderList.add(or50);*/
+    	SsoOptions or50=or1;
+    	orderList.add(or50);
     	
     	OrderHistory oh = new OrderHistory();
     	oh.setOrder(orderList);
@@ -249,6 +249,99 @@ public class ConferenceResource {
     	
     }
 
+    @GET
+    @Produces(MediaType.APPLICATION_XML)
+    @Path("detailcom")
+    public OrderDetalis getDetail(){
+    	
+    	//ShippingInfoSOptions so = new ShippingInfoSOptions();
+    	TotalOrderOptions to = new TotalOrderOptions();
+    	BillingInfoOptions bo = new BillingInfoOptions();
+    	ShippingInfoTOptions so = new ShippingInfoTOptions();
+    	
+    	to.setOrder_id("40047001");
+    	to.setItem_total("item_total");
+    	to.setDiscount("4%");
+    	to.setShipping_total("7.43");
+    	to.setTax_total("7.09");
+    	to.setGrand_total("106.93");
+    	to.setOrder_status("Processing");
+    	to.setOrder_date("11/23/2015");
+    	to.setStore_label("Teacher Store");
+    	to.setDetail_url("https://shopdev3.scholastic.net/webapp/wcs/stores/servlet/MyAcctItemHistoryView?langId=-1&amp;storeId=10751&amp;orderId=");
+    	to.setPromo_code("123");
+    	to.setStoreIdentifier("TSO");
+    	
+    	so.setName("tso a7");
+    	so.setAddress1("address1");
+    	so.setAddress2("address2");
+    	so.setCity("city");
+    	so.setState("state");
+    	so.setZip("123");
+    	so.setShip_type("DUMMY");
+    	
+    	bo.setName("Teo Test");
+    	bo.setAddress1("PAGO PAGO SCHOOL");
+    	bo.setAddress2("address2");
+    	bo.setCity("PAGO PAGO");
+    	bo.setState("AS");
+    	bo.setZip("96799");
+    	bo.setBill_to_phone("4323443553");
+    	bo.setBill_to_email("sigqatemp1@scholastic.com");
+    	bo.setCard_brand("VISA");
+    	bo.setCard_number("************1111");
+    	
+    	SsoOrderItemOptions io = new SsoOrderItemOptions();
+    	TsoOrderItemOptions tio = new TsoOrderItemOptions();
+    	
+    	List<ItemOptions> item = new ArrayList<ItemOptions>();
+    	
+    	io.setShipping_info("SCHOOL");
+    	io.setOrder_item_id("1090001");
+    	io.setTitle("Jennifer Lawrence");
+    	io.setNickname("SCHOOL");
+    	io.setShipping_amt("3.26");
+    	io.setIsbn("9780531214282");
+    	io.setPartNum("NTS9780531214282");
+    	io.setQuantity("4");
+    	io.setList_price("7.95");
+    	io.setTax_dollar_amt("2.26");
+    	io.setTotal_items_price("31.80");
+    	io.setItem_adjust("0.00");
+    	io.setItem_image("media/products/82/9780531214282_sm.jpg");
+    	io.setProduct_type("Library Binding");
+    	io.setTracking_href("wwww.abc.com");
+    	
+    	
+    	tio.setShipping_info("83268518");
+    	tio.setOrder_item_id("825006");
+    	tio.setTitle("Number Tales: One Little Egg");
+    	tio.setNickname("83268518");
+    	tio.setShipping_amt("0.00");
+    	tio.setIsbn("9780545412049");
+    	tio.setPartNum("NTS9780545412049");
+    	tio.setQuantity("1");
+    	tio.setList_price("10.95");
+    	tio.setTax_dollar_amt("7.26");
+    	tio.setTotal_items_price("51.80");
+    	tio.setItem_adjust("2.00");
+    	tio.setItem_image("media/products/49/9780545412049_sm.jpg");
+    	tio.setProduct_type("eBook");
+    	tio.setTracking_href("wwww.abcd.com");
+    	
+    	
+    	item.add(tio);
+    	item.add(io);
+    	   	
+    	
+    	OrderDetalis od = new OrderDetalis();
+    	od.setOrder_totals(to);
+    	od.setShipping_info(so);
+    	od.setBilling_info(bo);
+    	od.setOrder_item(item);
+    	
+    	return od;
+    }
 
 
 }

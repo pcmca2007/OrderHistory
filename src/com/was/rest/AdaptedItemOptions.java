@@ -10,17 +10,20 @@ import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.XmlValue;
 
 
 
-public class AdaptedOptions extends Options {
+public class AdaptedItemOptions extends ItemOptions {
 	
-	@XmlAttribute String store_id;
+	@XmlAttribute String billing_info;
+	@XmlAttribute String shipping_info;
+	
 	
 	
 	@XmlElement List<Attribute> attribute  = new ArrayList<Attribute>();
-	Map<String, String> map = new HashMap<String, String>();
+		Map<String, String> map = new HashMap<String, String>();
 	
 	public void beforeMarshal(Marshaller marshaller) {
         for(Entry<String, String> entry : map.entrySet()) {
@@ -37,10 +40,11 @@ public class AdaptedOptions extends Options {
         }
     }
 	
-	
+	@XmlType(name="attribute2")
 	private static class Attribute  {
         @XmlAttribute String name;
         @XmlValue String value;
     }
+
 
 }

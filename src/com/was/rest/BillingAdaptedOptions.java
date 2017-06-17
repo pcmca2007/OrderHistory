@@ -10,13 +10,15 @@ import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.XmlValue;
 
 
 
-public class AdaptedOptions extends Options {
+public class BillingAdaptedOptions extends BillingOptions {
 	
-	@XmlAttribute String store_id;
+	
+	@XmlAttribute String name;
 	
 	
 	@XmlElement List<Attribute> attribute  = new ArrayList<Attribute>();
@@ -37,10 +39,12 @@ public class AdaptedOptions extends Options {
         }
     }
 	
-	
+	@XmlType(name="attribute3")
 	private static class Attribute  {
         @XmlAttribute String name;
         @XmlValue String value;
     }
+
+
 
 }
